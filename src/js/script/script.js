@@ -42,7 +42,7 @@ let checkWinner = () => {
 }
 
 let draw = (count) => {
-    if (count === 9) {
+    if (count === 10) {
         game_message.innerText = "Game was Draw🫢";
         animation();
     }
